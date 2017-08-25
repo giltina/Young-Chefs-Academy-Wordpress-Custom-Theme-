@@ -1,0 +1,170 @@
+body {
+  
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+nav.background{
+  margin-top:-50px;
+}
+
+section.newsletter-bg {
+    padding: 80px;
+    color: #000;
+	padding: 80px 0;
+  /*background: url(../img/background2.jpg) no-repeat center center fixed; */
+  background: linear-gradient(to right, #019ACD 0%,#019ACD 50%,#019ACD 50%,#A776B3 50%,#A776B3 100%); /* W3C */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:white;
+    
+}
+
+section.services-bg {
+	padding: 50px 0;
+  /*background: url(../img/background2.jpg) no-repeat center center fixed; */
+  background:white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+section.footer-bg {
+    color: white;
+	padding: 40px 0;
+  /*background: url(../img/background2.jpg) no-repeat center center fixed; */
+  background:#2E2E2E;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+section.login-bg {
+    color: #000;
+	padding: 10px 0;
+  /*background: url(../img/background2.jpg) no-repeat center center fixed; */
+  background:grey;
+  margin-top:10px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+section.top-bg {
+    color: #fff;
+	padding: 10px 0;
+  /*background: url(../img/background2.jpg) no-repeat center center fixed; */
+  background:#F89A1D;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+.circle1 { width: 90%; background: #E60E64; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;text-align:center; }
+.circle2 { width: 90%; background: #019ACD; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;text-align:center; }
+.circle3 { width: 90%; background: #98CD6A; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;text-align:center; }
+.circle4 { width: 90%; background: #F89A1D; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;text-align:center; }
+.circle5 { width: 90%; background: #A776B3; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;text-align:center; }
+.circle6 { width: 90%; background: #E60E64; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;text-align:center; }
+.img-circle{
+  border:10px solid white;
+  margin-top:5%;
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: scale3d(0.9, 0.9, 0.9);
+          transform: scale3d(0.9, 0.9, 0.9);
+}
+
+.img-circle:hover{
+  -webkit-transform: scale3d(0.97, 0.97, 0.5);
+   transform: scale3d(0.97, 0.97, 0.5);;
+}
+
+.bg{
+    color: #fff;
+	padding: 10px 10px 45px 15px;
+  /*background: url(../img/background2.jpg) no-repeat center center fixed; */
+  background:#231F20;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2.home { width:100%; text-align:center; border-bottom: 2px solid #000; line-height:0.1em; margin:10px 0 20px; } 
+h2.home span { background:#fff; padding:0 10px; }
+
+.nav-pills > li > a {
+    border-radius: 4px;
+    background-color: #eee;
+    text-transform: uppercase;
+    font-size:0.9em;
+    font-weight:bold;
+    /*text-shadow: 1px 1px 1px #000;*/
+    filter:alpha(opacity=60); /* IE */
+-moz-opacity:0.6; /* Mozilla */
+opacity: 0.6; /* CSS3 */
+}
+
+.text_over_image {
+    position: absolute;
+ margin: auto;
+    top: 0px;
+    left:0px;
+    right:0;
+    bottom:0;
+    color:#fff;
+   height:80px;
+   font-weight:bold;
+   font-size:1.5em;
+   text-shadow: 1px 1px 1px #000;
+}
+
+.btn-success {
+    background: #A776B3;
+    color: #ffffff;
+}
+
+@media (max-width: 991px) {
+	.nav-pills>li {
+		float: left;
+    font-size:7px !important;
+    
+    
+	}
+  nav .nav-pills {
+		margin-top:10px !important;
+    width:100%;
+	}
+  
+}
+
+
+
+@media (max-width: 1199px) {
+	.nav-pills>li {
+		float: left;
+    font-size:10px;
+    
+	}
+  
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
